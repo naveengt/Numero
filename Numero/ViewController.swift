@@ -42,7 +42,7 @@ class ViewController: UIViewController {
   var score: Int? {
     didSet {
       if let score = score, let game = game {
-        scoreLabel.text = "\(score) / \(game.maxAttemptsAllowed)"
+        scoreLabel.text = "\(score) / \(game.maxAttemptsAllowed) Naveen"
       }
     }
   }
